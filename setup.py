@@ -8,6 +8,6 @@ setup(
     author_email='ippei0605@gmail.com',
     url='https://github.com/ippei0605/scskdai',
     entry_points = {
-        'console_scripts': ['scskdai = scskdai.receipt_cleansing:hello2']
+        'console_scripts': ['receipt_cleansing = scskdai.receipt_cleansing:hello2']
     },
 )
