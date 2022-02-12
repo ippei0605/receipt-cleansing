@@ -1,4 +1,4 @@
-from setuptools import setup,  find_packages
+from setuptools import setup
 
 setup(
     name="scskdai",
@@ -7,9 +7,7 @@ setup(
     author='Ippei Suzuki',
     author_email='ippei0605@gmail.com',
     url='https://github.com/ippei0605/scskdai',
-    packages=find_packages(),
-    entry_points="""
-        [console_scripts]
-        scskdai = scskdai.receipt_cleansing:hello
-    """,
+    entry_points = {
+        'console_scripts': ['scskdai = scskdai.receipt_cleansing:hello2']
+    },
 )
