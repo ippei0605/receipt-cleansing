@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="scskdai",
@@ -7,5 +7,4 @@ setup(
     author='Ippei Suzuki',
     author_email='ippei0605@gmail.com',
     url='https://github.com/ippei0605/scskdai',
-    packages=find_packages(),
 )
