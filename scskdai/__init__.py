@@ -2,7 +2,7 @@ from .scskdai import (
     hello,
 )
 
-from .receipt_cleansing.py import (
+from .receipt_cleansing import (
     hello2,
 )
 
