@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="scskdai",
-    version='0.1.5',
+    version='0.1.6',
     description='SCSKDAI Common Function',
     author='Ippei Suzuki',
     author_email='ippei0605@gmail.com',
